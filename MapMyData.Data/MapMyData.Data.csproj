@@ -57,14 +57,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201608021758276_DbInit.cs" />
+    <Compile Include="Migrations\201608021758276_DbInit.Designer.cs">
+      <DependentUpon>201608021758276_DbInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608021802193_DataSet_FirstPass.cs" />
+    <Compile Include="Migrations\201608021802193_DataSet_FirstPass.Designer.cs">
+      <DependentUpon>201608021802193_DataSet_FirstPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppSecurity\AppUser.cs" />
+    <Compile Include="Models\Common\BaseModel.cs" />
     <Compile Include="Models\Context\ApplicationDbContext.cs" />
+    <Compile Include="Models\DataPoint.cs" />
+    <Compile Include="Models\MapDataSet.cs" />
+    <Compile Include="Models\State.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201608021758276_DbInit.resx">
+      <DependentUpon>201608021758276_DbInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608021802193_DataSet_FirstPass.resx">
+      <DependentUpon>201608021802193_DataSet_FirstPass.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\States.sql.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

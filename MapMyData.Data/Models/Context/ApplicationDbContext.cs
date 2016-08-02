@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using System.Data.Entity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace MapMyData.Data.Models
 {
     public class ApplicationDbContext : IdentityDbContext<AppUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("DefaultConnection")
         {
         }
 
@@ -13,5 +14,9 @@ namespace MapMyData.Data.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<MapDataSet> DataSets { get; set; }
+        public DbSet<DataPoint> DataPoints { get; set; }
+        public DbSet<State> States { get; set; }
     }
 }

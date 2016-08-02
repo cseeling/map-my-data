@@ -1,0 +1,56 @@
+﻿USE [MapMyData]
+GO
+
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('AL', 'Alabama');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('AK', 'Alaska');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('AZ', 'Arizona');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('AR', 'Arkansas');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('CA', 'California');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('CO', 'Colorado');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('CT', 'Connecticut');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('DE', 'Delaware');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('DC', 'District of Columbia');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('FL', 'Florida');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('GA', 'Georgia');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('HI', 'Hawaii');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('ID', 'Idaho');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('IL', 'Illinois');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('IN', 'Indiana');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('IA', 'Iowa');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('KS', 'Kansas');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('KY', 'Kentucky');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('LA', 'Louisiana');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('ME', 'Maine');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MD', 'Maryland');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MA', 'Massachusetts');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MI', 'Michigan');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MN', 'Minnesota');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MS', 'Mississippi');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MO', 'Missouri');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('MT', 'Montana');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NE', 'Nebraska');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NV', 'Nevada');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NH', 'New Hampshire');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NJ', 'New Jersey');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NM', 'New Mexico');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NY', 'New York');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('NC', 'North Carolina');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('ND', 'North Dakota');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('OH', 'Ohio');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('OK', 'Oklahoma');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('OR', 'Oregon');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('PA', 'Pennsylvania');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('RI', 'Rhode Island');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('SC', 'South Carolina');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('SD', 'South Dakota');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('TN', 'Tennessee');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('TX', 'Texas');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('UT', 'Utah');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('VT', 'Vermont');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('VA', 'Virginia');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('WA', 'Washington');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('WV', 'West Virginia');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('WI', 'Wisconsin');
+INSERT INTO [dbo].[States] ([Name],[Code]) VALUES('WY', 'Wyoming');
+
+GO
