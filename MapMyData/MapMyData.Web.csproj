@@ -246,6 +246,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapMyData.Business\MapMyData.Business.csproj">
+      <Project>{72a3d38c-e849-467c-8cbf-65224c551c43}</Project>
+      <Name>MapMyData.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MapMyData.Data\MapMyData.Data.csproj">
+      <Project>{fa4ad7dd-0298-465a-8a8d-205b4f08762b}</Project>
+      <Name>MapMyData.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
